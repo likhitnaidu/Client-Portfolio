@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>Bhaskara Rao Midithana</title>
+</head>
+
+<body>
+  <section class="home-page" id="home">
+    <nav>
+      <ul class="neu-button" id="navbar">
+        <li><a href="#home" onclick="scrolltohome(event)">Home</a></li>
+        <li><a href="#about" onclick="scrolltoabout(event)">About</a></li>
+        <li><a href="#exp" onclick="scrolltoexp(event)">Experience</a></li>
+        <li><a href="#contact" onclick="scrolltocontact(event)">Contacts</a></li>
+      </ul>
+    </nav>
+    <h1 id="q">Portfolio</h1>
+    <div class="introduction">
+      <h1 id="greeting"></h1>
+      <h1 id="a">Hi 👋🏽,I am</h1>
+      <h1 id="b">M . Bhaskara Rao</h1>
+      <h1 id="c">Head of Hospitality GSC Seychelles Group</h1>
+    </div>
+    <div class="shape"></div>
+    <img src="./img.png" alt="" id="h">
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/yourprofile" class="linkedin" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.facebook.com/yourprofile" class="facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="mailto:yourmail@gmail.com" class="gmail" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://twitter.com/yourprofile" class="twitter" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+    <button class="btn" id="openBtn" type="button"><a href="">
+        Resume</a>
+    </button>
+    <div class="modal" id="fileModal">
+      <div class="modal-content">
+        <span class="close" id="closeBtn">&times;</span>
+        <iframe src="Bhaskara Rao M - CV.pdf" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <img src="./imaa.jpg" id="w" alt="">
+    <img src="./imaaaa.png" id="g">
+    <h1 class="ab">About Me</h1>
+    <div class="text">With over 27 years of global leadership in hospitality, operations, supply chain, and procurement,
+      I bring a results-driven mindset and hands-on expertise in managing multi-brand F&B outlets, hotel chains, and
+      logistics networks. From streamlining procurement across continents to elevating guest experiences at leading
+      hotels and restaurants in the UAE, Seychelles, and India, my journey is defined by efficiency, innovation, and
+      people-centric leadership.
+
+      I specialize in driving profitability, optimizing operations, and building high-performance teams — always with a
+      focus on quality, cost control, and guest satisfaction.</div>
+  </section>
+  <section class="exp" id="exp">
+    <h1 class="o">Experience</h1>
+
+    <div class="carousel-container" id="carousel">
+      <div class="arrow left" id="prev">&#10094;</div>
+
+      <div class="carousel-track">
+        <a href="https://thalassaseychelles.com/index.html">
+          <div class="slide active" id="one" style="background-image: url('THALASSA.jpeg');">
+            <h1 class="head">GSC Hospitality</h1>
+            <div class="caption">
+              <h1 style="color: #fff;">Head of Hospitality (September 2023– Till date)</h1>Responsible for profit and
+              loss
+              across all business units, including budgeting, financial
+              oversight, and performance analysis. Collaborates with unit leaders to develop strategies, drive growth,
+              and
+              ensure alignment with business goals.
+            </div>
+          </div>
+        </a>
+        <a href="https://villagedupecheur.sc/">
+          <div class="slide" style="background-image: url('village.jpeg');">
+            <h1 class="head">Village Du Pecheur Resort</h1>
+            <div class="caption">
+              <h1 style="color: #fff;">General Manager Supply Chain & Operations (September 2022– June 2023)</h1>
+              Oversees
+              resort operations, including staff hiring, training, budgeting, vendor
+              management, and ensuring top-notch guest facilities. Drives marketing campaigns, conducts departmental
+              reviews, and enforces policies for safety, sustainability, and service quality.
+            </div>
+          </div>
+        </a>
+        <a href="https://www.nation.sc/articles/698/the-coffee-club-officially-launches-its-delivery-service-on-mah">
+          <div class="slide" style="background-image: url('minor.jpeg');">
+            <h1 class="head">Minor Food Seychelles Limited</h1>
+            <div class="caption">
+              <h1 style="color: #fff;">Procurement Manager (Maldives) Head of Operations (Seychelles)(May 2018– May
+                2022)
+              </h1>Led operations and procurement for Minor Food Seychelles, overseeing P&L, HR,
+              maintenance, audits, and vendor management across multiple international QSR brands. Handled sourcing and
+              imports from over 10 countries to support brands like Burger King, The Pizza Company, and Dairy Queen.
+            </div>
+          </div>
+        </a>
+        <a href="https://www.google.com/search?q=Taipei+Dao+Tea+House+Restaurant" target="_blank">
+          <div class="slide" style="background-image: url('taipei.jpeg');">
+            <h1 class="head">Taipei Dao Tea House Restaurant</h1>
+            <div class="caption">
+              <h1 style="color: #fff;">Manager Supply Chain/ Operations and Procurement(April 2017 – March 2018)</h1>
+              Taipei
+              Dao Tea House Restaurant having presence in UAE. Taipei Dao is Authentic and Healthy Taiwanese Concept
+              located in behind Dubai Mall, South ridge area.
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="arrow right" id="next">&#10095;</div>
+
+      <div class="dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h1 style="font-size: 2rem;">Contact Me</h1>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p><strong>Email:</strong> bhaskar1606@gmail.com</p>
+          <p><strong>Phone:</strong> +248 2 719 031</p>
+          <p><strong>Address:</strong> N Coast Rd, De Quincy, Beau Vallon, Seychelles</p>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div id="success-message" style="display: none; color: green; text-align:center; margin-top:20px;">
+      ✅ Your message has been sent!
+    </div>
+    <div class="social-media" id="down">
+      <a href="https://www.linkedin.com/in/yourprofile" class="linkedin" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://www.facebook.com/yourprofile" class="facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="mailto:yourmail@gmail.com" class="gmail" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://twitter.com/yourprofile" class="twitter" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Midithana Bhaskara Rao</h3>
+        <p>Delivering excellence since 1996. Contact us for any queries or support.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#exp">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Instagram"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025.All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
