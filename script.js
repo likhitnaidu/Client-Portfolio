@@ -171,3 +171,7 @@ const form = document.querySelector(".contact-form");
     e.preventDefault();
     modal.style.display = "block";
   };
+  function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
